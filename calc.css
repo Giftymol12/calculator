@@ -1,0 +1,39 @@
+.main {
+    width: 18.75rem;
+    height: 25.75rem;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+input {
+    width: 80%;
+    margin: 1.5625rem;
+    height: 1.975rem;
+    border: 1px solid black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.btn,
+#clr {
+    width: 45px;
+    height: 40px;
+    background-color: bisque;
+    font-size: 1.5rem;
+
+}
+
+#clr {
+    margin-left: 2.2rem;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
